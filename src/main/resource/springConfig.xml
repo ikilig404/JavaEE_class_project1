@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.3.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+    <!-- 配置srping的Ioc,把service对象配置进来-->
+    <bean id="studentService" class="com.wjwhs.service.impl.StudentServiceImpl"></bean>
+
+    <context:component-scan base-package="com.wjwhs"></context:component-scan>
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+    <!-- config DataSource -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"></property>
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+        <property name="user" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="initialPoolSize" value="${jdbc.initialPoolSize}"></property>
+        <property name="minPoolSize" value="${jdbc.minPoolSize}"></property>
+        <property name="maxPoolSize" value="${jdbc.maxPoolSize}"></property>
+        <property name="acquireIncrement" value="${jdbc.acquireIncrement}"></property>
+    </bean>
+    <!-- config JdbcTemplate -->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <bean id="account1" class="com.wjwhs.dao.Account">
+        <property name="id" value="51"/>
+        <property name="type" value="农业银行"/>
+        <property name="status" value="已激活"/>
+        <property name="balance" value="10000.0"/>
+        <property name="personId" value="1"/>
+    </bean>
+    <bean id="account2" class="com.wjwhs.dao.Account">
+        <property name="id" value="52"/>
+        <property name="type" value="工商银行"/>
+        <property name="status" value="未激活"/>
+        <property name="balance" value="11000.0"/>
+        <property name="personId" value="1"/>
+    </bean>
+    <bean id="account3" class="com.wjwhs.dao.Account">
+        <property name="id" value="53"/>
+        <property name="type" value="建设银行"/>
+        <property name="status" value="已激活"/>
+        <property name="balance" value="10500.0"/>
+        <property name="personId" value="1"/>
+    </bean>
+    <bean id="person" class="com.wjwhs.dao.Person">
+        <property name="id" value="1"/>
+        <property name="name" value="刘备"/>
+        <property name="birth" value="1998-09-23"/>
+        <property name="accounts">
+            <list>
+                <ref bean="account1"/>
+                <ref bean="account2"/>
+                <ref bean="account3"/>
+            </list>
+        </property>
+    </bean>
+
+
+</beans>

@@ -9,5 +9,8 @@
         <module name="IOC_and_AOP" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="iocandaop" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

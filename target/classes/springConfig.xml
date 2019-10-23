@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+    <bean id="account1" class="com.wjwhs.dao.Account">
+        <property name="id" value="51"/>
+        <property name="type" value="农业银行"/>
+        <property name="status" value="已激活"/>
+        <property name="balance" value="10000.0"/>
+        <property name="personId" value="1"/>
+    </bean>
+    <bean id="account2" class="com.wjwhs.dao.Account">
+        <property name="id" value="52"/>
+        <property name="type" value="工商银行"/>
+        <property name="status" value="未激活"/>
+        <property name="balance" value="11000.0"/>
+        <property name="personId" value="1"/>
+    </bean>
+    <bean id="account3" class="com.wjwhs.dao.Account">
+        <property name="id" value="53"/>
+        <property name="type" value="建设银行"/>
+        <property name="status" value="已激活"/>
+        <property name="balance" value="10500.0"/>
+        <property name="personId" value="1"/>
+    </bean>
+    <bean id="person" class="com.wjwhs.dao.Person">
+        <property name="id" value="1"/>
+        <property name="name" value="刘备"/>
+        <property name="birth" value="1998-09-23"/>
+        <property name="accounts">
+            <list>
+                <ref bean="account1"/>
+                <ref bean="account2"/>
+                <ref bean="account3"/>
+            </list>
+        </property>
+    </bean>
+
+
+</beans>
