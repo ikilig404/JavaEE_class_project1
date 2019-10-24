@@ -16,9 +16,10 @@ public interface IStudentService {
     /**
      * 根据studentId更新score
      * @param studentId
-     * @param score
+     * @param studentScore
+     * @param courseScore
      */
-    public void updateStudentScore(int studentId, int score);
+    public void updateStudentScore(int studentId, int studentScore, int courseScore);
 
     /**
      * 修改完后往映射表插入一行新记录

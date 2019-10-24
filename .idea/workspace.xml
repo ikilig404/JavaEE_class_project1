@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3556d9d-8306-4300-bdfb-d52e0ff639dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/aspect/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/aspect/ValidationAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wjwhs/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/service/IStudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wjwhs/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/service/impl/StudentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/springConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/springConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AOPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wjwhs/service/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wjwhs/service/IStudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wjwhs/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wjwhs/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/springConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AOPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AOPTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,20 +98,21 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wjw\Java\resources\IOC_and_AOP\src" />
+      <recent name="E:\wjw\Java\resources\IOC_and_AOP\src\main\resource" />
+      <recent name="E:\wjw\Java\resources\IOC_and_AOP\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wjwhs.aspect" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\wjw\Java\resources\IOC_and_AOP\src\main\webapp\WEB-INF" />
       <recent name="E:\wjw\Java\resources\IOC_and_AOP\src\main\webapp\WEB-INF\lib" />
       <recent name="E:\wjw\Java\resources\IOC_and_AOP\src" />
       <recent name="E:\wjw\Java\resources\IOC_and_AOP\src\main\java" />
       <recent name="E:\wjw\Java\resources\iocandaop\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wjw\Java\resources\IOC_and_AOP\src" />
-      <recent name="E:\wjw\Java\resources\IOC_and_AOP\src\main\resource" />
-      <recent name="E:\wjw\Java\resources\IOC_and_AOP\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -119,7 +127,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AOPTest.testDataSource">
+  <component name="RunManager" selected="JUnit.AOPTest">
+    <configuration name="AOPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IOC_and_AOP" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AOPTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AOPTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IOC_and_AOP" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AOPTest" />
+      <option name="METHOD_NAME" value="testCRUD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AOPTest.testDataSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IOC_and_AOP" />
       <option name="PACKAGE_NAME" value="" />
@@ -130,63 +157,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOCTest.tsetIOC (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="iocandaop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IOCTest" />
-      <option name="METHOD_NAME" value="tsetIOC" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOCTest.tsetIOC (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AOPTest.testStudentServiceImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IOC_and_AOP" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IOCTest" />
-      <option name="METHOD_NAME" value="tsetIOC" />
+      <option name="MAIN_CLASS_NAME" value="AOPTest" />
+      <option name="METHOD_NAME" value="testStudentServiceImpl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOCTest.tsetIOC (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="iocandaop" />
+    <configuration name="AOPTest.testTx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IOC_and_AOP" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IOCTest" />
-      <option name="METHOD_NAME" value="tsetIOC" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOCTest.tsetIOC" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="iocandaop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wjwhs.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wjwhs.test" />
-      <option name="MAIN_CLASS_NAME" value="com.wjwhs.test.IOCTest" />
-      <option name="METHOD_NAME" value="tsetIOC" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="AOPTest" />
+      <option name="METHOD_NAME" value="testTx" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AOPTest" />
+        <item itemvalue="JUnit.AOPTest.testTx" />
+        <item itemvalue="JUnit.AOPTest.testStudentServiceImpl" />
+        <item itemvalue="JUnit.AOPTest.testCRUD" />
         <item itemvalue="JUnit.AOPTest.testDataSource" />
-        <item itemvalue="JUnit.IOCTest.tsetIOC (2)" />
-        <item itemvalue="TestNG.IOCTest.tsetIOC (1)" />
-        <item itemvalue="JUnit.IOCTest.tsetIOC (1)" />
-        <item itemvalue="TestNG.IOCTest.tsetIOC" />
       </list>
     </recent_temporary>
   </component>
@@ -197,12 +194,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bc8e7481" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fbb34691" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bc8e7481" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@784f661f" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fbb34691" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3d1c7e06" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fbb34691" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5e72d31f" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -229,7 +231,7 @@
       <workItem from="1571824934255" duration="3966000" />
       <workItem from="1571828923622" duration="5201000" />
       <workItem from="1571834219542" duration="100000" />
-      <workItem from="1571884915026" duration="3831000" />
+      <workItem from="1571884915026" duration="11063000" />
     </task>
     <task id="LOCAL-00001" summary="还要复习aop">
       <created>1571834282697</created>
@@ -238,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571834282697</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="弄清数据库驱动">
+      <created>1571888911009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571888911009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +268,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="还要复习aop" />
-    <option name="LAST_COMMIT_MESSAGE" value="还要复习aop" />
+    <MESSAGE value="弄清数据库驱动" />
+    <option name="LAST_COMMIT_MESSAGE" value="弄清数据库驱动" />
   </component>
 </project>
