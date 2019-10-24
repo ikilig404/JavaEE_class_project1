@@ -2,50 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3556d9d-8306-4300-bdfb-d52e0ff639dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/dao/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/dao/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/dao/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/dao/ReflectionOfStudentAndCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/dao/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/service/IStudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/springConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/c3p0-0.9.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/junit-jupiter-5.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/junit-jupiter-api-5.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/junit-jupiter-engine-5.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/junit-jupiter-params-5.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/junit-platform-commons-1.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/junit-platform-engine-1.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-aop-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-aspects-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-beans-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-context-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-core-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-expression-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-jdbc-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-orm-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-tx-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-web-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AOPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studentAndcourse.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wjwhs/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/service/IStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wjwhs/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wjwhs/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/springConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/springConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AOPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springConfig.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +80,7 @@
   <component name="ProjectId" id="1SGWOpH0ThIwkN3xvYVvEWNY03K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -156,7 +119,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IOCTest.tsetIOC (2)">
+  <component name="RunManager" selected="JUnit.AOPTest.testDataSource">
+    <configuration name="AOPTest.testDataSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IOC_and_AOP" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AOPTest" />
+      <option name="METHOD_NAME" value="testDataSource" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IOCTest.tsetIOC (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="iocandaop" />
       <option name="PACKAGE_NAME" value="" />
@@ -171,22 +144,6 @@
       <module name="IOC_and_AOP" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IOCTest" />
-      <option name="METHOD_NAME" value="tsetIOC" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOCTest.tsetIOC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IOC_and_AOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wjwhs.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wjwhs.test" />
-      <option name="MAIN_CLASS_NAME" value="com.wjwhs.test.IOCTest" />
       <option name="METHOD_NAME" value="tsetIOC" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -225,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AOPTest.testDataSource" />
         <item itemvalue="JUnit.IOCTest.tsetIOC (2)" />
         <item itemvalue="TestNG.IOCTest.tsetIOC (1)" />
         <item itemvalue="JUnit.IOCTest.tsetIOC (1)" />
         <item itemvalue="TestNG.IOCTest.tsetIOC" />
-        <item itemvalue="JUnit.IOCTest.tsetIOC" />
       </list>
     </recent_temporary>
   </component>
@@ -240,12 +197,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b4f43907" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bc8e7481" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b4f43907" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7b247fda" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bc8e7481" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@784f661f" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -271,7 +228,17 @@
       <workItem from="1571821279966" duration="1630000" />
       <workItem from="1571824934255" duration="3966000" />
       <workItem from="1571828923622" duration="5201000" />
+      <workItem from="1571834219542" duration="100000" />
+      <workItem from="1571884915026" duration="3831000" />
     </task>
+    <task id="LOCAL-00001" summary="还要复习aop">
+      <created>1571834282697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571834282697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,5 +256,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="还要复习aop" />
+    <option name="LAST_COMMIT_MESSAGE" value="还要复习aop" />
   </component>
 </project>

@@ -2,7 +2,28 @@ package com.wjwhs.service;
 
 public interface IStudentService {
     /**
-     * 选课
+     * 根据courseId查询score
      */
-    public void selectCourse(int courseId);
+    public int queryCourseScore(int courseId);
+
+    /**
+     * 根据studentId查询score
+     * @param studentId
+     * @return
+     */
+    public int queryStudentScore(int studentId);
+
+    /**
+     * 根据studentId更新score
+     * @param studentId
+     * @param score
+     */
+    public void updateStudentScore(int studentId, int score);
+
+    /**
+     * 修改完后往映射表插入一行新记录
+     * @param studentId
+     * @param courseId
+     */
+    public void insertIntoStudentCourse(int studentId, int courseId);
 }
