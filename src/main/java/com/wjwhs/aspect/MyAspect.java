@@ -38,47 +38,4 @@ public class MyAspect {
         String methodName = jp.getSignature().getName();
         System.out.println("AfterReturning Announcement===> Method " + methodName + " return with: " + result);
     }
-
-
-//	@After("myPointCut()")
-//	public void afterAnnounce(JoinPoint jp) {
-//		String methodName = jp.getSignature().getName();
-//		System.out.println("After Announcement===> Method " + methodName + " execute.");
-//	}
-//
-//	@AfterReturning(value = "myPointCut()", returning = "result")
-//	public void afterReturnAnnounce(JoinPoint jp, Object result) {
-//		String methodName = jp.getSignature().getName();
-//		System.out.println("AfterReturning Announcement===> Method " + methodName + " return with: " + result);
-//	}
-//
-//	@AfterThrowing(value = "myPointCut()", throwing = "ex")
-//	public void afterThrowingAnnounce(JoinPoint jp, ArithmeticException ex) {
-//		String methodName = jp.getSignature().getName();
-//		System.out.println(
-//				"AfterThrowing Announcement===> Method " + methodName + " run with execption: " + ex.getMessage());
-//
-//	}
-//
-//	@Around("myPointCut()")
-//	public Object aroundAnnounce(ProceedingJoinPoint pjp) {
-//		Object result = null;
-//		//before announce
-//		//System.out.println("Around Announcement before");
-//		try {
-//			result = pjp.proceed();
-//			//returning announcement
-//			//System.out.println("Around Announcement after");
-//			return result;
-//		} catch (Throwable e) {
-//			//throwing announcement
-//			e.printStackTrace();
-//		} finally {
-//			//after announcement
-//		}
-//		return result;
-//
-//	}
-
-
 }
